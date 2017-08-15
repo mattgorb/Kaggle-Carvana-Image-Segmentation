@@ -11,7 +11,7 @@ Tech/libraries:
 Keras  
 Pandas  
 NumPy
-PIL  
-tqdf
-Amazon p2.xlarge 
-CUDA/CUDNN
+PIL   
+tqdf  
+Amazon p2.xlarge  
+CUDA/CUDNN  
