@@ -4,7 +4,6 @@ import cv2
 import numpy as np
 import pandas as pd
 import tqdm
-#import matplotlib.pyplot as plt
 import math
 from keras.callbacks import EarlyStopping, ReduceLROnPlateau, ModelCheckpoint, TensorBoard
 from keras.models import Sequential, Model
@@ -18,7 +17,6 @@ from sklearn.model_selection import train_test_split
 import os
 import sys
 from keras.preprocessing.image import array_to_img, img_to_array, load_img, ImageDataGenerator
-#%matplotlib inline
 from subprocess import check_output
 print(check_output(["ls", "input"]).decode("utf8"))
 from PIL import Image
